@@ -20,7 +20,7 @@ class CalculadoraTest {
         double resultado = calculadora.sumar(5, 3);
         assertEquals(8, resultado, "La suma de 5 y 3 debe ser 8");
     }
-
+    
     @Test
     void testRestar() {
         double resultado = calculadora.restar(5, 3);
